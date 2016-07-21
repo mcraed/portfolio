@@ -1,0 +1,79 @@
+.content-container{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(20deg, rgba(13, 1, 5, .4), rgba(229, 255, 222, 1.00));
+}
+
+.jukebox-player{
+	width: 100vw;
+	height:	45vh;
+	/*background: red;*/
+	display: inline-block;
+}
+
+.player-wrap{
+	width: 21em;
+	height: 10em;
+	display: inline-block;
+}
+
+#controls-container{
+	width: 21em;
+	height: 6em;
+}
+
+.controls{
+	width: 4em;
+	height: 4em;
+	background: none;
+	display: inline-block;
+}
+
+#player-info{
+	width: 10em;
+	height: 3em;
+	text-align: center;
+	font-size: 2em;
+}
+
+#playlist-ul{
+	width: 22em;
+	height: 45vh;
+	display: inline-block;
+	list-style: none;
+}
+
+.playlist-item{
+	display: block;
+	width: 20em;
+	color: #fff;
+}
+
+#playlist-ul a{
+	text-decoration: none;
+}
+
+.about-section{
+	width: 100vw;
+	height: 60vh;
+	/*background: linear-gradient(20deg, rgba(0, 31, 84, 1.00), rgba(13, 1, 5, 0));*/
+	background: red;
+}
+
+.bio-wrapper{
+	width: 40vw;
+	height: 50vh;
+	background: yellow;
+	display: inline-block;
+}
+
+.bio-wrapper h3{
+	font-size: 2em;
+	text-align: center;
+}
+
+.bio-wrapper p{
+	width: 98%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
