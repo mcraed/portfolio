@@ -1,25 +1,30 @@
 .content-container{
 	width: 100vw;
-	height: 100vh;
 	background: linear-gradient(20deg, rgba(13, 1, 5, .4), rgba(229, 255, 222, 1.00));
 }
 
-.jukebox-player{
+.jukebox-section{
 	width: 100vw;
-	height:	45vh;
-	/*background: red;*/
+	height:	65vh;
 	display: inline-block;
 }
 
 .player-wrap{
 	width: 21em;
-	height: 10em;
+	height: 18em;
 	display: inline-block;
+	border: .1px solid #000;
+	border-radius: 1em;
+	margin: 6vh 5em;
+
 }
 
-#controls-container{
-	width: 21em;
-	height: 6em;
+.controls-container{
+	width: 16em;
+	text-align: center;
+	margin: 3vh auto;
+	border: .1px solid #000;
+	border-radius: 1.3em;
 }
 
 .controls{
@@ -37,15 +42,18 @@
 }
 
 #playlist-ul{
-	width: 22em;
-	height: 45vh;
-	display: inline-block;
+	width: 18em;
 	list-style: none;
+	margin: 0 auto;
+	border-radius: 1.2em;
+	overflow: hidden;
+	background: green;
+	padding: .8em;
 }
 
 .playlist-item{
 	display: block;
-	width: 20em;
+	width: 18em;
 	color: #fff;
 }
 

@@ -69,7 +69,7 @@
 				if(item === song){
 					$(song_id).css('background', 'rgba(13, 1, 5, .7');
 				}else{
-					$(song_id).css('background', 'red');
+					$(song_id).css('background', 'none');
 				}
 			}
 		}
@@ -86,7 +86,15 @@
 			highlighter(now_playing);
 			history_push(selected);
 			playButton();
+		});
 
+		$('.playlist-item').mouseover(function(){
+			var link = String('#' + this.id);
+			$(link).css('background', 'blue');
+
+			$(this).mouseleave(function(){
+				$(link).css('background', 'none');
+			});
 		});
 
 
@@ -191,7 +199,6 @@
 			}else{
 				if(h == 0){					
 					h = 0;
-					// maybe alert the user that it is the start of their play history
 				}else{
 					h = h - 1
 					audio.src = play_history[h].file_name;

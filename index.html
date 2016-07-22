@@ -22,9 +22,9 @@
 		</div>
 	</div>
 	<div class="content-container">
-		<div class="jukebox-player">	
+		<div class="jukebox-section">	
 			<div class="player-wrap">
-				<div id="controls-container">
+				<div class="controls-container">
 					<img src="assets/images/aud-last.png" class="controls" id="aud-last">
 			
 					<img src="assets/images/aud-play.png" class="controls play-pause" id="aud-play">
@@ -33,14 +33,15 @@
 
 					<img src="assets/images/aud-next.png" class="controls" id="aud-next">
 		 		</div>
-		 		<div id="player-info">
+				<div id="playlist-ul">
+					<!-- .playlist-item(s) created in jukebox.js:53 songs.map() -->
+				</div>
+		 		<!-- <div id="player-info">
 					<div>Artist: <span id="now-playing-artist"></span></div>
 					<div>Song: <span id="now-playing-song"></span></div>
-				</div>
+				</div> -->
 			</div>
-			<div id="playlist-ul">
-				
-			</div>
+			<div class="slant-div"></div>
 		</div>
 		<div class="about-section">
 			<!-- contact info with links at the bottom -->
@@ -51,7 +52,7 @@
 				</p>
 			</div>
 		</div>
-		
+
 	</div>
 	<!-- add about section here -->
 	<footer>
