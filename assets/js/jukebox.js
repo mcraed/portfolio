@@ -1,4 +1,4 @@
-	$(document).ready(function(){
+$(document).ready(function(){
 
 	console.log('working');
 
@@ -41,7 +41,7 @@
 			playing = true;
 			$('#aud-play').hide();
 			$('#aud-pause').show();
-		}
+		};
 
 		var history_push = function(hps){
 			play_history.push(hps);
@@ -50,16 +50,29 @@
 		// this is the playlist (ul) - add click event that will play corresponding song and push to play history  
 		var song_list = $('#playlist-ul');
 
-		songs.map( (song, f) => {
-			var li = $('<li/>')
-				.appendTo(song_list)
-			var a = $('<a>')
-				.addClass('playlist-item')
-				.attr('id', String(songs.indexOf(song)))
-				.attr('href', '#')
-				.text(song.name + ' - ' + song.artist)
-				.appendTo(li);
-		});
+		// songs.map( (song, f) => {
+		// 	var li = $('<li/>')
+		// 		.appendTo(song_list)
+		// 	var a = $('<a>')
+		// 		.addClass('playlist-item')
+		// 		.attr('id', String(songs.indexOf(song)))
+		// 		.attr('href', '#')
+		// 		.text(song.name + ' - ' + song.artist)
+		// 		.appendTo(li);
+		// });
+
+		for(var i = 0; i < songs.length; i++){
+			var song = songs[i];
+			var li = $('<li/>');
+			var a = $('<a>');
+			li.appendTo(song_list);
+			a.appendTo(song_list);
+			a.addClass('playlist-item');
+			a.attr('id', String(songs.indexOf(song)));
+			a.attr('href', '#');
+			a.text(song.name + ' - ' + song.artist);
+			// song.appendTo(li);		
+		};
 
 		function highlighter(item){
 

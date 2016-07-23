@@ -105,7 +105,7 @@
 	}
 }
 
-footer{
+.footer{
 	width: 100vw;
 	height: 15vh;
 	background: linear-gradient(rgba(1, 0, 5, .9) 85%, rgba(16, 37, 66, .6));
@@ -116,7 +116,9 @@ footer{
 	width: 90%;
 	text-align: center;
 	list-style: none;
-	margin: 3vh auto;
+	padding-top: 3vh;
+	margin: 0 auto;
+
 }
 
 .contact-ul li{
@@ -128,5 +130,4 @@ footer{
 	width: 2.5em;
 	height: 2.5em;
 	display: inline-block;
-
 }
