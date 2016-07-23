@@ -7,16 +7,15 @@
 
 .landing-container{
 	width: 100vw;
-	height: 110vh;
-	border-top: .1px solid #000;
-	background: url('../images/unsplash-bg.jpg');
-	background-size: cover;
+	border: .1px solid #000;
+	background: RGBA(1, 0, 5, 1.00);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .landing-content{
-	width: 65vw;
-	height: 20vh;
-	margin: 14vh auto;
+	width: 100vw;
+	margin: 3vh 0;
 }
 
 .logo-container{
@@ -27,7 +26,7 @@
 	background: white;
 	text-align: center;
 	float: left;
-	margin-left: 7.5em;
+	margin: 0 15% 0 12%;
 }
 
 .logo-container h3{
@@ -39,18 +38,70 @@
 .landing-text{
 	height: 7em;
 	display: inline-block;
-	margin-left: 5em;
+	/*margin-left: 5em;*/
 	text-align: center;
 	color: #fff;
 }
 
 .landing-name{
-	font-size: 3em;
+	font-size: 7vmin;
 	display: block;
 }
 
 .typed-title{
-	font-size: 1.5em;
+	font-size: 4vmin;
+}
+
+
+
+@media (min-width: 1071px){
+
+	.landing-container{
+		width: 100vw;
+		height: 110vh;
+		border-top: .1px solid #000;
+		background: url('../images/laptop-bg.jpg');
+		background-size: cover;
+	}
+	
+	.landing-content{
+		width: 65vw;
+		margin: 14vh auto;
+	}
+
+	.logo-container{
+		width: 7em;
+		height: 7em;
+		border: 1px solid #000;
+		border-radius: 50%;
+		background: #fff;
+		text-align: center;
+		float: left;
+		margin-left: 7.5em;
+	}
+
+	.logo-container h3{
+		width: 100%;
+		height: 10%;
+		margin-top: 7.5vh;
+	}
+
+	.landing-text{
+		height: 7em;
+		display: inline-block;
+		/*margin-left: 3em;*/
+		text-align: center;
+		color: #fff;
+	}
+
+	.landing-name{
+		font-size: 3em;
+		display: block;
+	}
+
+	.typed-title{
+		font-size: 1.5em;
+	}
 }
 
 footer{
