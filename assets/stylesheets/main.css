@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 	vertical-align: top;
+	font-family: 'Muli', sans-serif;
 }
 
 .landing-container{
 	width: 100vw;
 	height: 110vh;
-	font-family: 'Muli', sans-serif;
 	border-top: .1px solid #000;
 	background: url('../images/unsplash-bg.jpg');
 	background-size: cover;
@@ -56,13 +56,25 @@
 footer{
 	width: 100vw;
 	height: 15vh;
-	background: #BEE9E8;
+	background: linear-gradient(rgba(1, 0, 5, .9) 85%, rgba(16, 37, 66, .6));
+	border-top: .01px solid #000;
 }
 
-.headshot{
-	width: 4.5em;
-	height: 4.5em;
-	border: 1px solid #000;
-	border-radius: 50%;
-	margin: 1vh 0 0 5em;
+.contact-ul{
+	width: 90%;
+	text-align: center;
+	list-style: none;
+	margin: 3vh auto;
+}
+
+.contact-ul li{
+	display: inline-block;
+	margin: 0 .4em;
+}
+
+.soc-med-icon{
+	width: 2.5em;
+	height: 2.5em;
+	display: inline-block;
+
 }

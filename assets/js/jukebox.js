@@ -67,7 +67,7 @@
 				var song = songs[i];
 				var song_id = String('#' + i);
 				if(item === song){
-					$(song_id).css('background', 'rgba(13, 1, 5, .7');
+					$(song_id).css('background', 'rgba(16, 37, 66, .6)');
 				}else{
 					$(song_id).css('background', 'none');
 				}
@@ -90,11 +90,13 @@
 
 		$('.playlist-item').mouseover(function(){
 			var link = String('#' + this.id);
-			$(link).css('background', 'blue');
+			$(link).css('background', 'rgba(16, 37, 66, .6)');
 
 			$(this).mouseleave(function(){
 				$(link).css('background', 'none');
+				highlighter(now_playing);	
 			});
+
 		});
 
 

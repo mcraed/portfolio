@@ -4,7 +4,7 @@ window.onload = function(){
 	$(function(){
 		$('.typed-title').typed({
 			strings: ["Full Stack Web Developer"],
-			typeSpeed: 20
+			typeSpeed: 75
 		});
 	});
 };
