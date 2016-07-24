@@ -16,6 +16,7 @@
 
 .jukebox-area{
 	width: 60vw;
+	display: inline-block;
 	float: left;
 }
 
@@ -52,12 +53,12 @@
 
 #playlist-ul{
 	width: 20em;
-	height: 13em;
+	height: 100%;
 	list-style: none;
 	margin: 0 auto;
 	border: .1px solid #000;
-	overflow: hidden;
-	padding: .25em .8em 0 .8em;
+	overflow: scroll;
+	padding: .25em .8em .25em .8em;
 	background: RGBA(251, 252, 255, .8);
 }
 
@@ -126,6 +127,7 @@
 
 	.jukebox-area{
 		width: 60vw;
+		display: inline-block;
 		float: left;
 	}
 
@@ -161,12 +163,12 @@
 
 	#playlist-ul{
 		width: 20em;
-		height: 13em;
+		height: 100%;
 		list-style: none;
 		margin: 0 auto;
 		border: .1px solid #000;
-		overflow: hidden;
-		padding: .25em .8em 0 .8em;
+		overflow: scroll;
+		padding: .25em .8em .25em .8em;
 		background: RGBA(251, 252, 255, .8);
 	}
 
@@ -175,7 +177,7 @@
 		width: 18em;
 		padding: .1em;
 		color: #010005;
-		font-size: 1.1em;
+		/*font-size: 1.1em;*/
 	}
 
 	#playlist-ul a{

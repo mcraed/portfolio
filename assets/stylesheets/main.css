@@ -6,6 +6,12 @@
 	font-family: 'Prompt', sans-serif;
 }
 
+.site-container{
+	width: 100vw;
+	height: 100vh;
+	overflow: scroll;
+}
+
 .landing-container{
 	width: 100vw;
 	/*height: 100vh;*/
