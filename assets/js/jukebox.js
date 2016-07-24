@@ -11,16 +11,21 @@ $(document).ready(function(){
 		}
 
 		// songs in playlist
-		var alright = new Song('Alright', 'Kendrick Lamar', 'assets/audio/Alright.mp3'); 
+		// var alright = new Song('Alright', 'Kendrick Lamar', 'assets/audio/Alright.mp3');
+		var buffalo = new Song('Buffalo Soldier', 'Bob Marley', 'assets/audio/Buffalo_Soldier.mp3'); 
 		var pyramids= new Song('Pyramids', 'Frank Ocean', 'assets/audio/Pyramids.mp3'); 
 		var helena = new Song('Helena', 'My Chemical Romance', 'assets/audio/Helena.mp3');
-		var berry = new Song('The Blacker the Berry', 'Kendrick Lamar', 'assets/audio/The_Blacker_the_Berry.mp3');
-		var taylor_gang = new Song('Taylor Gang', 'Wiz Khalifa', 'assets/audio/Taylor_Gang.mp3');
+		// var berry = new Song('The Blacker the Berry', 'Kendrick Lamar', 'assets/audio/The_Blacker_the_Berry.mp3');
+		var loft = new Song('Loft Music', 'The Weeknd', 'assets/audio/Loft_Music.mp3');
+		// var taylor_gang = new Song('Taylor Gang', 'Wiz Khalifa', 'assets/audio/Taylor_Gang.mp3');
+		var passenger = new Song('Passenger', 'Deftones', 'assets/audio/Passenger.mp3');
 		var devil = new Song('Booksmart Devil', 'Silversun Pickups', 'assets/audio/Booksmart_Devil.mp3');
-		var house = new Song('Red House', 'Jimi Hendrix', 'assets/audio/Red_House.mp3');
-		var risk = new Song('Risk', 'Deftones', 'assets/audio/Risk.mp3');
+		// var house = new Song('Red House', 'Jimi Hendrix', 'assets/audio/Red_House.mp3');
+		var purp = new Song('Purple Haze', 'Jimi Hendrix', 'assets/audio/Purple_Haze.mp3');
+		// var risk = new Song('Risk', 'Deftones', 'assets/audio/Risk.mp3');
+		var outro = new Song('Ab-Souls Outro', 'Kendrick Lamar', 'assets/audio/Ab-Souls_Outro.mp3');
 
-		songs = [taylor_gang, berry, alright, pyramids, helena, devil, house, risk];
+		songs = [buffalo, pyramids, helena, loft, passenger, devil, purp, outro];
 
 		play_history = [];
 		audio = document.createElement('audio');
@@ -70,7 +75,7 @@ $(document).ready(function(){
 			a.addClass('playlist-item');
 			a.attr('id', String(songs.indexOf(song)));
 			a.attr('href', '#');
-			a.text(song.name + ' - ' + song.artist);
+			a.text(song.artist + ' - ' + song.name);
 			// song.appendTo(li);		
 		};
 
