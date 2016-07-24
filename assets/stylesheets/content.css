@@ -85,6 +85,7 @@
 	background: rgba(16, 37, 66, .6);
 	color: RGBA(251, 252, 255, 1.00);
 	display: inline-block;
+	overflow: scroll;
 }
 
 .headshot{
