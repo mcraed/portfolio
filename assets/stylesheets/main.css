@@ -14,7 +14,7 @@
 
 .landing-container{
 	width: 100vw;
-	/*height: 100vh;*/
+	height: 10em;
 	border: .1px solid #000;
 	background: RGBA(1, 0, 5, 1.00);
 	background-size: contain;
