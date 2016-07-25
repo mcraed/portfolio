@@ -1,7 +1,7 @@
 .content-container{
 	width: 100vw;
-	height: 100vh;
-	background: linear-gradient(rgba(1, 0, 5, .7), RGBA(45, 16, 14, .8));
+	height: 85vh;
+	background: linear-gradient(rgba(1, 0, 5, .7), rgba(45, 16, 14, .8));
 	border-top: 3px inset #000;
 	border-bottom: .1px solid #000;
 	z-index: 1000;
@@ -20,13 +20,13 @@
 	float: left;
 }
 
-.controls-container{
-	width: 26em;
+/*.controls-container{
+	width: 0em;
+	background: green;
 	text-align: center;
-	margin: 12vh auto 6vh auto;
+	margin: 12vh 0;
 	/*background: rgba(16, 37, 66, .6);*/
 	/*background: RGBA(224, 226, 219, 1.00);*/
-}
 
 .controls{
 	width: 6em;
@@ -87,6 +87,7 @@
 	color: RGBA(251, 252, 255, 1.00);
 	display: inline-block;
 	border-bottom: 1px solid #000;
+	overflow: scroll;
 }
 
 .headshot{
@@ -132,10 +133,11 @@
 	}
 
 	.controls-container{
-		width: 26em;
+		width: 100%;
 		text-align: center;
 		margin: 9vh auto;
 		border-radius: 1.3em;
+		/*background: green;*/
 	}
 
 	.controls{
