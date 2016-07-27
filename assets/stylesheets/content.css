@@ -44,11 +44,9 @@
 
 .player-wrap{
 	width: 100%;
-	/*height: 14em;*/
+	margin: 16em;
 	margin: 8vh 0;
-	/*margin-bottom: 2em;*/
 	background: rgba(16, 37, 66, .6);
-	/*overflow: scroll;*/
 }
 
 #playlist-ul{
@@ -58,7 +56,7 @@
 	margin: 0 auto;
 	border: .1px solid #000;
 	overflow: scroll;
-	padding: .25em .8em .25em .8em;
+	/*padding: .25em .8em .25em .8em;*/
 	background: RGBA(251, 252, 255, .8);
 }
 
@@ -109,8 +107,8 @@
 }
 
 .bio p{
-	font-size: 1.3em;
-	line-height: 1.4em;
+	font-size: 1em;
+	line-height: 1.2em;
 	margin: .6em 0;
 	text-shadow: -1px 0 #000, 1px 0 #000, 1px 0 #000, -1px 0 #000;
 }
@@ -120,7 +118,7 @@
 @media screen and (min-width: 800px){
 	.content-container{
 		width: 100vw;
-		/*height: 100vh;*/
+		height: 95vh;
 		background: linear-gradient(rgba(1, 0, 5, .7), rgba(45, 16, 14, .8));
 		border-top: 3px inset #000;
 		z-index: 1000;
@@ -156,7 +154,7 @@
 
 	.player-wrap{
 		width: 100%;
-		/*height: 14em;*/
+		height: 14.9em;
 		margin-top: 8vh;
 		margin-bottom: 2em;
 		background: rgba(16, 37, 66, .6);
@@ -165,12 +163,12 @@
 
 	#playlist-ul{
 		width: 20em;
-		height: 14em;
+		height: 14.75em;
 		list-style: none;
 		margin: 0 auto;
 		border: .1px solid #000;
 		overflow: scroll;
-		padding: .25em .8em .25em .8em;
+		/*padding: .25em .8em .25em .8em;*/
 		background: RGBA(251, 252, 255, .8);
 	}
 
