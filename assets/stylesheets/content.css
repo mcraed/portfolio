@@ -210,8 +210,13 @@
 	}
 
 	.working-container{
-		width: 100vw;
+		width: 70vw;
 		height: 50vh;
+		margin: 0 auto;
 		background: green;
+	}
+
+	.working-container ul{
+		list-style-type: square;
 	}
 }
