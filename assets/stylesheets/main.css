@@ -8,14 +8,13 @@
 
 .site-container{
 	width: 100vw;
-	height: 100vh;
 }
 
 .landing-container{
 	width: 100vw;
 	height: 20vh;
 	background: RGBA(1, 0, 5, 1.00);
-	border: .1px solid #fff;
+	border: .01px solid #000;
 }
 
 .landing-content{
@@ -52,14 +51,16 @@
 	height: 10vh;
 	background: linear-gradient(rgba(1, 0, 5, .9)85%, rgba(16, 37, 66, .6));
 	border-top: .01px solid #000;
+	text-align: center;
 }
 
 .contact-ul{
 	width: 90vw;
 	text-align: center;
 	list-style: none;
-	padding-top: 3vh;
+	padding-top: 2.3vh;
 	margin: 0 auto;
+	margin-bottom: 1em;
 }
 
 .contact-ul li{
@@ -71,4 +72,9 @@
 	width: 2.5em;
 	height: 2.5em;
 	display: inline-block;
+}
+
+.email{
+	font-size: 1.25em;
+	color: #fff;
 }
