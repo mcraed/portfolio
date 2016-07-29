@@ -46,3 +46,29 @@
 .typed-title{
 	font-size: 4vmin;
 }
+
+.footer{
+	width: 100vw;
+	height: 10vh;
+	background: linear-gradient(rgba(1, 0, 5, .9)85%, rgba(16, 37, 66, .6));
+	border-top: .01px solid #000;
+}
+
+.contact-ul{
+	width: 90vw;
+	text-align: center;
+	list-style: none;
+	padding-top: 3vh;
+	margin: 0 auto;
+}
+
+.contact-ul li{
+	display: inline-block;
+	margin: 0 .4em;
+}
+
+.soc-med-icon{
+	width: 2.5em;
+	height: 2.5em;
+	display: inline-block;
+}

@@ -1,0 +1,65 @@
+.content-background{
+	width: 100vw;
+	background: url('../images/jukebox-bg.jpeg');
+	background-size: cover;
+}
+
+.content-container{
+	width: 100vw;
+	height: 70vh;
+	background: linear-gradient(rgba(1, 0, 5, .7), rgba(45, 16, 14, .8));
+	border-top: 3px inset #000;
+	border-bottom: .1px solid #000;	
+}
+
+.jukebox-area{
+	width: 100vw;
+	display: inline-block;
+	float: left;
+}
+
+.controls-container{
+	width: 100%;
+	text-align: center;
+	margin: 5vh auto;
+}
+
+.controls{
+	width: 7em;
+	height: 7em;
+}
+
+.player-wrap{
+	width: 100%;
+	margin: 2vh auto;
+	background: rgba(16, 37, 66, .6);
+}
+
+#playlist-ul{
+	width: 30em;
+	height: 16em;
+	margin: 0 auto;
+	padding-left: .4em;
+	border: .1px solid #000;
+	background: rgba(251, 252, 255, .8);
+	list-style: none;
+}
+
+.playlist-item{
+	
+	padding: .1em;
+	color: #010005;
+	font-size: 1.3em;
+}
+
+#playlist-ul a{
+	text-decoration: none;
+}
+
+.player-description{
+	width: 98%;
+	color: #fff;
+	margin: 2vh auto;
+	text-align: center;
+}
+
