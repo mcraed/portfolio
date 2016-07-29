@@ -14,7 +14,7 @@
 	width: 100vw;
 	height: 20vh;
 	background: RGBA(1, 0, 5, 1.00);
-	border: .01px solid #000;
+	border: 1px solid #000;
 }
 
 .landing-content{
