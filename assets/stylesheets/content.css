@@ -43,7 +43,8 @@
 }
 
 .playlist-item{
-	width: 90%;
+	/*width: 90%;*/
+	width: 28em;
 	padding: .1em;
 	color: #010005;
 	font-size: 1.3em;
@@ -54,10 +55,11 @@
 }
 
 .player-description{
-	width: 98%;
+	width: 60%;
 	color: #fff;
-	margin: 2vh auto;
+	margin: .7vh auto;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 .bio-container{
@@ -74,20 +76,20 @@
 }
 
 .headshot img{
-	width: 7em;
-	height: 7em;
+	width: 7.5em;
+	height: 7.5em;
 	border-radius: 50%;
 	margin: 2em 0;
 }
 
 .bio{
-	width: 35em;
+	width: 50em;
 	margin: 0 auto;
 }
 
 .bio p{
-	font-size: 1em;
-	line-height: 1.2em;
+	font-size: 1.3em;
+	line-height: 1.5em;
 	letter-spacing: 2px;
 	margin: .6em 0;
 	text-shadow: -1px 0 #000, 1px 0 #000, 1px 0 #000, -1px 0 #000;
