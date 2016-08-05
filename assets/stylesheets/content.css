@@ -7,6 +7,7 @@
 .page-container *{
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Prompt', sans-serif;
 }
 
 .w3-container{
@@ -17,6 +18,22 @@
 	width: 100vw;
 	height: 13vh;
 	background: #000;
+	border: .01px solid #000;
+}
+
+.header img{
+	width: 7em;
+	height: 7em;
+	border: 1px solid #000;
+	margin: 3vh 7em 3vh 5em;
+	float: left;
+}
+
+.header-name{
+	color: #fff;
+	font-size: 4em;
+	border: .01px solid #000;
+	margin: 3.5vh 0;
 }
 
 .section-head{
