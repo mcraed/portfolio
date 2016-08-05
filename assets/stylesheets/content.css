@@ -53,3 +53,9 @@
 .contact-head{
 	background: green;
 }
+
+.footer{
+	width: 100vw;
+	height: 8vh;
+	background: #000;
+}
