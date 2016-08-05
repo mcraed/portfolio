@@ -1,96 +1,38 @@
-.content-background{
+.page-container{
 	width: 100vw;
-	background: url('../images/jukebox-bg.jpeg');
-	background-size: cover;
+	height: 100vh;
+	overflow: scroll;
 }
 
-.content-container{
+.page-container *{
+	margin: 0px;
+	padding: 0px;
+}
+
+.w3-container{
+	padding: 0;
+}
+
+.header{
 	width: 100vw;
-	height: 70vh;
-	background: linear-gradient(rgba(1, 0, 5, .7), rgba(45, 16, 14, .8));
-	border: 1px solid #000;	
+	height: 13vh;
+	background: #000;
 }
 
-.jukebox-area{
+.section-head{
 	width: 100vw;
+	height: 30vh;
+	margin: 0;
 }
 
-.controls-container{
-	width: 100%;
-	text-align: center;
-	margin: 5vh auto;
+.about-head{
+	background: red;
 }
 
-.controls{
-	width: 7em;
-	height: 7em;
+.jukebox-head{
+	background: blue;
 }
 
-.player-wrap{
-	width: 100%;
-	margin: 2vh auto;
-	background: rgba(16, 37, 66, .6);
-}
-
-#playlist-ul{
-	width: 30em;
-	height: 16em;
-	margin: 0 auto;
-	padding-left: .4em;
-	border: .1px solid #000;
-	background: rgba(251, 252, 255, .8);
-	list-style: none;
-}
-
-.playlist-item{
-	/*width: 90%;*/
-	width: 28em;
-	padding: .1em;
-	color: #010005;
-	font-size: 1.3em;
-}
-
-#playlist-ul a{
-	text-decoration: none;
-}
-
-.player-description{
-	width: 60%;
-	color: #fff;
-	margin: .7vh auto;
-	text-align: center;
-	font-size: 1.2em;
-}
-
-.bio-container{
-	width: 100vw;
-	background: rgba(16, 37, 66, .6);
-	color: rgba(251, 252, 255, 1);
-	padding-bottom: 2em;
-	margin: 5vh auto;
-}
-
-.headshot{
-	width: 100vw;
-	text-align: center;
-}
-
-.headshot img{
-	width: 7.5em;
-	height: 7.5em;
-	border-radius: 50%;
-	margin: 2em 0;
-}
-
-.bio{
-	width: 50em;
-	margin: 0 auto;
-}
-
-.bio p{
-	font-size: 1.3em;
-	line-height: 1.5em;
-	letter-spacing: 2px;
-	margin: .6em 0;
-	text-shadow: -1px 0 #000, 1px 0 #000, 1px 0 #000, -1px 0 #000;
+.contact-head{
+	background: green;
 }
